@@ -16,7 +16,7 @@ int main(void)
 	add_node_end(&head, "love");
 	add_node_end(&head, "asm");
 	print_list(head);
-	free_list(head);
-	head = NULL;
+	free_list(&head);
+	printf("%p\n", (void *)head);
 	return (0);
 }
