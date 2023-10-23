@@ -25,5 +25,8 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t **head);
 char *pop_list(list_t **head);
+list_t *get_node_at_index(list_t *head, unsigned int index);
+list_t *insert_node_at_index(list_t **head, unsigned int idx, char *str);
+
 
 #endif

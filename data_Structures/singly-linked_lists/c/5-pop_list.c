@@ -1,7 +1,9 @@
 #include "sls.h"
 
 /**
- * 
+ * pop_list - get the str value in a list
+ * @head: the head of the linked list
+ * Return: str or NULL if list is empty
 */
 char *pop_list(list_t **head)
 {
