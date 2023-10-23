@@ -19,8 +19,7 @@ int main(void)
 	add_node_end(&head, "402");
 	add_node_end(&head, "1024");
 	print_list(head);
-	printf("-----------------\n");
-	insert_node_at_index(&head, 5, "4096");
+	reverse_list(&head);
 	print_list(head);
 	free_list(&head);
 	return (0);

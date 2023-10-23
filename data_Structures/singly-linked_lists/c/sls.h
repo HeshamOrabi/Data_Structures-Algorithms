@@ -27,6 +27,7 @@ void free_list(list_t **head);
 char *pop_list(list_t **head);
 list_t *get_node_at_index(list_t *head, unsigned int index);
 list_t *insert_node_at_index(list_t **head, unsigned int idx, char *str);
-
+char *delete_node_at_index(list_t **head, unsigned int index);
+list_t *reverse_list(list_t **head);
 
 #endif
